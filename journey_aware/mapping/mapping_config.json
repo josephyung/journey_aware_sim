@@ -28,16 +28,17 @@
     {
       "startingTime": 5.0,
       "maxTime": 700.0,
-      "targetFlow": 1200.0,
+      "targetFlow": 200.0,
       "spawningMode": "CONSTANT",
-      "maxNumberVehicles": 333,
+      "maxNumberVehicles": 20,
       "laneSelectionMode": "BEST",
       "departSpeed": 0.0,
       "departSpeedMode": "MAXIMUM",
       "types": [
         {
           "name": "Car",
-          "weight": 1.0
+          "weight": 1.0,
+          "applications": ["HelloWorldApp"]
         }
       ],
       "deterministic": true,
@@ -47,9 +48,9 @@
     {
       "startingTime": 5.0,
       "maxTime": 700.0,
-      "targetFlow": 1200.0,
+      "targetFlow": 200.0,
       "spawningMode": "CONSTANT",
-      "maxNumberVehicles": 333,
+      "maxNumberVehicles": 20,
       "laneSelectionMode": "BEST",
       "departSpeed": 0.0,
       "departSpeedMode": "MAXIMUM",
@@ -66,9 +67,9 @@
     {
       "startingTime": 5.0,
       "maxTime": 700.0,
-      "targetFlow": 1200.0,
+      "targetFlow": 200.0,
       "spawningMode": "CONSTANT",
-      "maxNumberVehicles": 333,
+      "maxNumberVehicles": 20,
       "laneSelectionMode": "BEST",
       "departSpeed": 0.0,
       "departSpeedMode": "MAXIMUM",
